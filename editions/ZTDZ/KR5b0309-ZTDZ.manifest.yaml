@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0309/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0309/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 龍瑞觀禹穴陽明洞天圖經
+  date: '2015-08-29 00:16:08.704167'
+  source:
+    repository: kanripo
+    path: KR5b0309
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0309_000-ZTDZ.yaml, hash: 'sha256:d8f8b68296468a7410ebc2d1b88d1ab3fadb2eba0df8763c46de0698834e2ca3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0309_000-ZTDZ.markers.yaml, hash: 'sha256:4df691ce266ade3198961c66154636e4020124705a09730019b0329a25769988'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0309_SJB_000-110097b
+    span:
+    - body
+    - 0
+    - 1004
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f15fb2c04b24bcd2f5676c2af4b3d33691bc98fedb95cf4fafd577f7ae48515d
